@@ -109,7 +109,7 @@ const Home = () => {
         <Categories value={categoryId} onChangeCategory={onChangeCategory} />
         <Sort />
       </div>
-      <h2 className="content__title">Все пиццы (Edward)</h2>
+      <h2 className="content__title">Все пиццы (Edward "1")</h2>
       {status === 'error' ? (
         <div className="content__error-info">
           <h2>Произошла ошибка 😕</h2>
